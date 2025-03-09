@@ -5,7 +5,10 @@ Consider the following puzzle: Given a grid of size NxN and adjacent cells are g
 irregular form and assigned an arithmetic operator and target number. The task is to fill the grid with
 digits from 1..N such that each digit appears once in each row and each column, and when we apply
 the arithmetic operator to the digits in each group, the result will be the assigned target number.
-Below is an example with N=6.
+Below is an example with N=6.   
+
+![image](https://github.com/user-attachments/assets/5dea6268-8b2b-4e49-8d97-e95c02bff3c8)
+
 In this project, you will model this puzzle as a Constraint Satisfaction Problem (CSP) and develop a
 solution using constraint propagation and backtracking with the Minimum Remaining Value (MRV)
 heuristic and forward checking to improve search efficiency.
